@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func clickMe(_ sender: UIButton) {
-        print("This is Git Tutorial")
+        print("You finished!")
     }
     
 }
