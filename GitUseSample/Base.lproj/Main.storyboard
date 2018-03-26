@@ -19,17 +19,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDu-Tz-v92">
-                                <rect key="frame" x="157.5" y="318" width="59" height="30"/>
+                                <rect key="frame" x="154" y="316.5" width="66" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Click Me"/>
                                 <connections>
                                     <action selector="clickMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cg0-Ot-UNt"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My new label in new branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PtM-XX-IbK">
+                                <rect key="frame" x="81" y="285.5" width="212" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="PtM-XX-IbK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="89Y-6w-SIy"/>
                             <constraint firstItem="JDu-Tz-v92" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="G6a-O5-bjV"/>
                             <constraint firstItem="JDu-Tz-v92" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LfQ-Ut-h4W"/>
+                            <constraint firstItem="JDu-Tz-v92" firstAttribute="top" secondItem="PtM-XX-IbK" secondAttribute="bottom" constant="10" id="Qys-HL-P0H"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
